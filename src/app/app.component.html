@@ -1,0 +1,40 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<div class="row component-container">
+  <div *ngIf="compDelId['1']" id="1" class="col-md-6">
+    <app-btn-component (delComp)="compToggler($event)"></app-btn-component>
+    <span>1</span>
+  </div>
+  <div *ngIf="compDelId['2']" id="2" class="col-md-6">
+    <app-btn-component (delComp)="compToggler($event)"></app-btn-component>
+    <span>2</span>
+  </div>
+  <div *ngIf="compDelId['3']" id="3" class="col-md-6">
+    <app-btn-component (delComp)="compToggler($event)"></app-btn-component>
+    <span>3</span>
+  </div>
+  <div *ngIf="compDelId['4']" id="4" class="col-md-6">
+    <app-btn-component (delComp)="compToggler($event)"></app-btn-component>
+    <span>4</span>
+  </div>
+</div>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+
+<router-outlet></router-outlet>
